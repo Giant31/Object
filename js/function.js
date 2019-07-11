@@ -113,7 +113,12 @@ function game(){
 
 function maingame(){
     var game1 = confirm("would you like to play a game");
-    alert("thank you");
-game();
-}
+    if(game1){
+        alert("welcome");
+        game();
+    }else{
+        alert("thank you");
+    }
+
+}   
 maingame();
